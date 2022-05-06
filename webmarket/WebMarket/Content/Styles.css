@@ -1,0 +1,240 @@
+﻿.checkout label {
+    display: inline-block;
+    width: 60px;
+    text-align: right;
+}
+
+.checkout div input {
+    width: 200px;
+    margin: 2px;
+}
+
+#errors {
+    color: red;
+}
+
+
+div#cartSummary {
+    float: right;
+    margin: .8em;
+    color: Silver;
+    background-color: #000;
+    padding: .5em .5em .5em 1em;
+}
+
+    div#cartSummary a {
+        text-decoration: none;
+        padding: .4em 1em .4em 1em;
+        line-height: 2.1em;
+        margin-left: .5em;
+        background-color: #333;
+        color: White;
+        border: 1px solid black;
+    }
+
+h2 {
+    margin-top: 0.3em
+}
+
+#cartTable {
+    width: 90%;
+}
+
+    #cartTable tfoot td {
+        
+        font-weight: bold;
+    }
+
+    #cartTable thead th {
+        text-align: right;
+    }
+
+        #cartTable thead th:first-child {
+            text-align: center;
+        }
+
+        #cartTable thead th:nth-child(2) {
+            text-align: left;
+        }
+
+    #cartTable tbody td {
+        text-align: right;
+    }
+
+        #cartTable tbody td:first-child {
+            text-align: center;
+        }
+
+        #cartTable tbody td:nth-child(2) {
+            text-align: left;
+        }
+
+    #cartTable tfoot tr td {
+        text-align: right;
+    }
+
+p.actionButtons {
+    text-align: center;
+}
+
+.actionButtons a, button.actionButtons {
+    color: White;
+    background-color: black;
+    border: 1px solid black;
+    
+   
+    padding: 15px;
+}
+
+div.item button {
+    color: White;
+    background-color: black;
+    border: 1px solid black;
+    float: right;
+    margin-top:-50px;
+    padding:15px;
+}
+body {
+    font-family: Cambria, Georgia, "Times New Roman";
+    margin: 0;
+}
+
+
+div#header div.title, div.item h3, div.item h4, div.pager a {
+    font: bold 1em "Arial Narrow", "Franklin Gothic Medium", Arial;
+    color:black;
+}
+
+div#header {
+    background-color: #faf5f2;
+    color: white;
+}
+
+    div#header div.title {
+        font-size: 2em;
+        padding: .6em;
+    }
+
+div#content {
+    
+    margin-left: 9em;
+    padding: 1em;
+}
+
+div#categories {
+    float: left;
+    width: 15em;
+    padding: .3em;
+    background-color: #cfc7b6;
+    height: 1500px;
+}
+div#header.catalog {
+    float: left;
+    width: 15em;
+    padding: .3em;
+    height: 1500px;
+}
+
+div.item {
+    padding-top: .7em;
+    margin-bottom: .7em;
+    margin-left: 200px;
+    width: 75%;
+    border-radius:15px;
+    background: #DCDCDC;
+}
+    div.item p {
+        float: left;
+        padding-right: 20px;
+        margin-top:20px;
+    }
+        div.item p img {
+            margin-left: 20px;
+        }
+    div.item:first-child {
+        border-top: none;
+        padding-top: 0;
+    }
+
+    div.item h3 {
+        font-size: 1.3em;
+        margin: 0 0 .25em 0;
+    }
+
+    div.item h4 {
+        font-size: 1.1em;
+        margin: .4em 0 0 0;
+        padding-bottom: 270px;
+    }
+
+
+div.pager {
+    text-align: right;
+    border-top: 2px solid silver;
+    padding: .5em 0 0 0;
+    margin-top: 1em;
+}
+
+    div.pager a {
+        font-size: 1.1em;
+        color: #666;
+        text-decoration: none;
+        padding: 0 .4em 0 .4em;
+    }
+
+        div.pager a:hover {
+            background-color: silver;
+        }
+
+        div.pager a.selected {
+            background-color: #353535;
+            color: white;
+        }
+
+div#categories a {
+    font: bold 1.1em "Arial Narrow","Franklin Gothic Medium",Arial;
+    display: block;
+    text-decoration: none;
+    padding: .6em;
+    color: Black;
+    border-bottom: 1px solid silver;
+    padding-top: 50px;
+
+}
+
+    div#categories a.selected {
+        background-color: #666;
+        color: White;
+    }
+
+    div#categories a:hover {
+        background-color: #CCC;
+    }
+
+    div#categories a.selected:hover {
+        background-color: #666;
+    }
+
+thead {
+    background: #8bbff7;
+    padding:20px;
+    color:White;
+}
+th {
+    padding:20px;
+    justify-content:center;
+    text-align:center;
+}
+.formcheck {
+    background: #eadada;
+    width:500px;
+    margin-left:auto;
+    margin-right:auto;
+    padding:20px;
+    border-radius:20px;
+    text-align:center;
+    margin-top:150px;
+}
+.input:checked {
+margin-left:5px;
+}

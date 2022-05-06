@@ -1,0 +1,277 @@
+﻿.checkout label {
+	display: inline-block;
+	width: 60px;
+	text-align: right;
+}
+
+.checkout div input {
+	width: 200px;
+	margin: 2px;
+}
+
+#errors {
+	color: red;
+}
+
+
+div#cartSummary {
+	float: right;
+	margin: .8em;
+	color: Silver;
+	background-color: #161616;
+	padding: .5em .5em .5em 1em;
+	font: bold 0.3em Cormorant Garamond;
+	font-size:15px;
+}
+
+	div#cartSummary a {
+		text-decoration: none;
+		padding: .4em 1em .4em 1em;
+		line-height: 2.1em;
+		margin-left: .5em;
+		background-color: #A33327;
+		color: White;
+		border-radius: 15px;
+	}
+
+h2 {
+	margin-top: 0.3em;
+	text-align:center;
+}
+
+#cartTable {
+	width: 85%;
+	padding-left: 10px;
+	font: bold 0.3em Cormorant Garamond;
+	font-size: 15px;
+}
+
+	#cartTable tfoot td {
+		font-weight: bold;
+	}
+
+	#cartTable thead th {
+		text-align: right;
+	}
+
+		#cartTable thead th:first-child {
+			text-align: center;
+		}
+
+		#cartTable thead th:nth-child(2) {
+			text-align: left;
+		}
+
+	#cartTable tbody td {
+		text-align: right;
+	}
+
+		#cartTable tbody td:first-child {
+			text-align: center;
+		}
+
+		#cartTable tbody td:nth-child(2) {
+			text-align: left;
+		}
+
+	#cartTable tfoot tr td {
+		text-align: right;
+	}
+
+p.actionButtons {
+	text-align: center;
+}
+
+.actionButtons a, button.actionButtons {
+	color: White;
+	border-color: #A33327;
+	background-color: #A33327;
+	border-radius: 10px;
+	padding: 15px;
+	font: bold 0.3em Cormorant Garamond;
+	font-size: 15px;
+}
+
+div.item button {
+	color: White;
+	background-color: #A33327;
+	float: right;
+	margin-top: -60px;
+	height: 40px;
+	width: 30%;
+	border-color: #A33327;
+	border-radius: 15px 0 0 15px;
+	text-align: center;
+}
+
+body {
+	font: bold 1em Cormorant Garamond;
+	margin: 0;
+	color: white;
+	background-color: #161616;
+}
+
+
+div#header div.title, div.item h3, div.item h4, div.pager a {
+	font: bold 1em Cormorant Garamond;
+	color: White;
+}
+
+div#header {
+	background-color: #161616;
+	color: white;
+
+}
+
+	div#header div.title {
+		font-size: 2em;
+		padding: .6em;
+		background-color: #A33327;
+		width: 211px;
+		height:30px;
+	}
+
+div#content {
+	margin-left: 9em;
+	padding: 1em;
+}
+
+div#categories {
+	float: left;
+	width: 15em;
+	padding: .3em;
+	background-color: #A33327;
+	min-height:4000px;
+}
+
+div#header.catalog {
+	float: left;
+	width: 15em;
+	padding: .3em;
+	height: 1500px;
+}
+
+div.item {
+	padding-top: .7em;
+	margin-bottom: .7em;
+	margin-left: 200px;
+	width: 25%;
+	height: 50%;
+	border-radius: 15px;
+	background: #689775;
+	filter: drop-shadow(0 0 3px rgba(0,0,0,0.5));
+	min-width:340px;
+}
+
+	div.item p {
+		float: left;
+		padding-right: 20px;
+		margin-top: 20px;
+	}
+
+		div.item p img {
+			margin-left: 20px;
+			border-radius: 15px;
+			width: 300px ;
+			height:300px;
+		}
+
+	div.item:first-child {
+		border-top: none;
+		padding-top: 0;
+	}
+
+	div.item h3 {
+		margin: 0 0 .25em 0;
+		text-align: center;
+		font: bold 0.8 em Cormorant Garamond;
+		font-size: 18px;
+	}
+
+	div.item h4 {
+		font-size: 1.6em;
+		margin: .4em 0 0 0;
+		padding-bottom: 200px;
+		text-align: center;
+	}
+
+
+div.pager {
+	text-align: right;
+	padding: .5em 0 0 0;
+	margin-top: 9em;
+}
+
+	div.pager a {
+		font-size: 2em;
+		color: white;
+		text-decoration: none;
+		padding: 0 .4em 0 .4em;
+	}
+
+		div.pager a:hover {
+			background-color: #689775;
+			border-radius: 15px;
+			color: white;
+		}
+
+		div.pager a.selected {
+			background-color: #A33327;
+			color: white;
+			border-radius: 15px;
+		}
+
+div#categories a {
+	font: bold 0.8 em Cormorant Garamond;
+	font-size: 20px;
+	display: block;
+	text-decoration: none;
+	padding: .6em;
+	color: White;
+	padding-top: 20px;
+}
+
+	div#categories a.selected {
+		background: #689775;
+		color: white;
+		border-radius: 15px;
+	}
+
+	div#categories a:hover {
+		background: #689775;
+		border-radius: 15px;
+	}
+
+	div#categories a.selected:hover {
+		background-color: #A33327;
+		border-radius: 15px;
+	}
+
+thead {
+	background: #8bbff7;
+	padding: 20px;
+	color: White;
+}
+
+th {
+	padding: 20px;
+	justify-content: center;
+	text-align: center;
+	background-color: #689775;
+	border-radius: 15px 0 15px 0;
+}
+
+.formcheck {
+	background: #689775;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+	border-radius: 20px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.input:checked {
+	margin-left: 5px;
+}
